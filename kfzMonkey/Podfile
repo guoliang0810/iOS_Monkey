@@ -1,0 +1,13 @@
+platform :ios, '11.0'
+
+target 'kfzMonkey' do   
+	pod 'SwiftMonkeyPaws'
+	pod 'SwiftyJSON'
+	pod 'SwiftLint'
+end
+
+target 'kfzMonkeyUITests' do
+    pod "SwiftMonkey", "~> 2.1.0"
+	#pod 'SwiftMonkey', :git => 'https://github.com/zalando/SwiftMonkey.git'
+	pod 'SwiftLint'
+end

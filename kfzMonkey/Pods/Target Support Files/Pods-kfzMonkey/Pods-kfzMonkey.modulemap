@@ -1,0 +1,6 @@
+module Pods_kfzMonkey {
+  umbrella header "Pods-kfzMonkey-umbrella.h"
+
+  export *
+  module * { export * }
+}

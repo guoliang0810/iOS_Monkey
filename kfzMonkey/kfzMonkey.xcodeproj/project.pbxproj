@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FEEA472251B2FC300EEA3E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEA471251B2FC300EEA3E1 /* AppDelegate.swift */; };
+		3FEEA474251B2FC300EEA3E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEA473251B2FC300EEA3E1 /* SceneDelegate.swift */; };
+		3FEEA476251B2FC300EEA3E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEA475251B2FC300EEA3E1 /* ContentView.swift */; };
+		3FEEA478251B2FC500EEA3E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEEA477251B2FC500EEA3E1 /* Assets.xcassets */; };
+		3FEEA47B251B2FC500EEA3E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEEA47A251B2FC500EEA3E1 /* Preview Assets.xcassets */; };
+		3FEEA47E251B2FC500EEA3E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEEA47C251B2FC500EEA3E1 /* LaunchScreen.storyboard */; };
+		3FEEA489251B2FC500EEA3E1 /* kfzMonkeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEA488251B2FC500EEA3E1 /* kfzMonkeyUITests.swift */; };
+		571B19E0B2C31AD952341A68 /* libPods-kfzMonkeyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 247790F7A5F87041231805E4 /* libPods-kfzMonkeyUITests.a */; };
+		A6A2BEDE9C38AF59C9B15503 /* libPods-kfzMonkey.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 021167B2D0E5CE8E94F8EDB7 /* libPods-kfzMonkey.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FEEA485251B2FC500EEA3E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FEEA466251B2FC200EEA3E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FEEA46D251B2FC300EEA3E1;
+			remoteInfo = kfzMonkey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021167B2D0E5CE8E94F8EDB7 /* libPods-kfzMonkey.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kfzMonkey.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		247790F7A5F87041231805E4 /* libPods-kfzMonkeyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kfzMonkeyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEEA46E251B2FC300EEA3E1 /* kfzMonkey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kfzMonkey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEEA471251B2FC300EEA3E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FEEA473251B2FC300EEA3E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FEEA475251B2FC300EEA3E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3FEEA477251B2FC500EEA3E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FEEA47A251B2FC500EEA3E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FEEA47D251B2FC500EEA3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FEEA47F251B2FC500EEA3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEEA484251B2FC500EEA3E1 /* kfzMonkeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kfzMonkeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEEA488251B2FC500EEA3E1 /* kfzMonkeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kfzMonkeyUITests.swift; sourceTree = "<group>"; };
+		3FEEA48A251B2FC500EEA3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDB9E63ED050EFCC44F6CDE /* Pods-kfzMonkey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kfzMonkey.release.xcconfig"; path = "Target Support Files/Pods-kfzMonkey/Pods-kfzMonkey.release.xcconfig"; sourceTree = "<group>"; };
+		62C22EE4B1A54D5CB27BC87F /* Pods-kfzMonkeyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kfzMonkeyUITests.release.xcconfig"; path = "Target Support Files/Pods-kfzMonkeyUITests/Pods-kfzMonkeyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BB9B754FDBC20DC3E4848A77 /* Pods-kfzMonkey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kfzMonkey.debug.xcconfig"; path = "Target Support Files/Pods-kfzMonkey/Pods-kfzMonkey.debug.xcconfig"; sourceTree = "<group>"; };
+		D0F9D3139038551AEC145266 /* Pods-kfzMonkeyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kfzMonkeyUITests.debug.xcconfig"; path = "Target Support Files/Pods-kfzMonkeyUITests/Pods-kfzMonkeyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FEEA46B251B2FC300EEA3E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A2BEDE9C38AF59C9B15503 /* libPods-kfzMonkey.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEEA481251B2FC500EEA3E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571B19E0B2C31AD952341A68 /* libPods-kfzMonkeyUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FEEA465251B2FC200EEA3E1 = {
+			isa = PBXGroup;
+			children = (
+				3FEEA470251B2FC300EEA3E1 /* kfzMonkey */,
+				3FEEA487251B2FC500EEA3E1 /* kfzMonkeyUITests */,
+				3FEEA46F251B2FC300EEA3E1 /* Products */,
+				4B3A57F03785CFC7556934D8 /* Pods */,
+				ABF754B871FEF0E409D24A35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FEEA46F251B2FC300EEA3E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FEEA46E251B2FC300EEA3E1 /* kfzMonkey.app */,
+				3FEEA484251B2FC500EEA3E1 /* kfzMonkeyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FEEA470251B2FC300EEA3E1 /* kfzMonkey */ = {
+			isa = PBXGroup;
+			children = (
+				3FEEA471251B2FC300EEA3E1 /* AppDelegate.swift */,
+				3FEEA473251B2FC300EEA3E1 /* SceneDelegate.swift */,
+				3FEEA475251B2FC300EEA3E1 /* ContentView.swift */,
+				3FEEA477251B2FC500EEA3E1 /* Assets.xcassets */,
+				3FEEA47C251B2FC500EEA3E1 /* LaunchScreen.storyboard */,
+				3FEEA47F251B2FC500EEA3E1 /* Info.plist */,
+				3FEEA479251B2FC500EEA3E1 /* Preview Content */,
+			);
+			path = kfzMonkey;
+			sourceTree = "<group>";
+		};
+		3FEEA479251B2FC500EEA3E1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3FEEA47A251B2FC500EEA3E1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FEEA487251B2FC500EEA3E1 /* kfzMonkeyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FEEA488251B2FC500EEA3E1 /* kfzMonkeyUITests.swift */,
+				3FEEA48A251B2FC500EEA3E1 /* Info.plist */,
+			);
+			path = kfzMonkeyUITests;
+			sourceTree = "<group>";
+		};
+		4B3A57F03785CFC7556934D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB9B754FDBC20DC3E4848A77 /* Pods-kfzMonkey.debug.xcconfig */,
+				4EDB9E63ED050EFCC44F6CDE /* Pods-kfzMonkey.release.xcconfig */,
+				D0F9D3139038551AEC145266 /* Pods-kfzMonkeyUITests.debug.xcconfig */,
+				62C22EE4B1A54D5CB27BC87F /* Pods-kfzMonkeyUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ABF754B871FEF0E409D24A35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				021167B2D0E5CE8E94F8EDB7 /* libPods-kfzMonkey.a */,
+				247790F7A5F87041231805E4 /* libPods-kfzMonkeyUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FEEA46D251B2FC300EEA3E1 /* kfzMonkey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEEA48D251B2FC500EEA3E1 /* Build configuration list for PBXNativeTarget "kfzMonkey" */;
+			buildPhases = (
+				E55C065B7CA4F2C634FC5308 /* [CP] Check Pods Manifest.lock */,
+				3FEEA46A251B2FC300EEA3E1 /* Sources */,
+				3FEEA46B251B2FC300EEA3E1 /* Frameworks */,
+				3FEEA46C251B2FC300EEA3E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kfzMonkey;
+			productName = kfzMonkey;
+			productReference = 3FEEA46E251B2FC300EEA3E1 /* kfzMonkey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FEEA483251B2FC500EEA3E1 /* kfzMonkeyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEEA490251B2FC500EEA3E1 /* Build configuration list for PBXNativeTarget "kfzMonkeyUITests" */;
+			buildPhases = (
+				8693778382057830C2214868 /* [CP] Check Pods Manifest.lock */,
+				3FEEA480251B2FC500EEA3E1 /* Sources */,
+				3FEEA481251B2FC500EEA3E1 /* Frameworks */,
+				3FEEA482251B2FC500EEA3E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FEEA486251B2FC500EEA3E1 /* PBXTargetDependency */,
+			);
+			name = kfzMonkeyUITests;
+			productName = kfzMonkeyUITests;
+			productReference = 3FEEA484251B2FC500EEA3E1 /* kfzMonkeyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FEEA466251B2FC200EEA3E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = kongfz;
+				TargetAttributes = {
+					3FEEA46D251B2FC300EEA3E1 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					3FEEA483251B2FC500EEA3E1 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 3FEEA46D251B2FC300EEA3E1;
+					};
+				};
+			};
+			buildConfigurationList = 3FEEA469251B2FC200EEA3E1 /* Build configuration list for PBXProject "kfzMonkey" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FEEA465251B2FC200EEA3E1;
+			productRefGroup = 3FEEA46F251B2FC300EEA3E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FEEA46D251B2FC300EEA3E1 /* kfzMonkey */,
+				3FEEA483251B2FC500EEA3E1 /* kfzMonkeyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FEEA46C251B2FC300EEA3E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEEA47E251B2FC500EEA3E1 /* LaunchScreen.storyboard in Resources */,
+				3FEEA47B251B2FC500EEA3E1 /* Preview Assets.xcassets in Resources */,
+				3FEEA478251B2FC500EEA3E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEEA482251B2FC500EEA3E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8693778382057830C2214868 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kfzMonkeyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E55C065B7CA4F2C634FC5308 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kfzMonkey-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FEEA46A251B2FC300EEA3E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEEA472251B2FC300EEA3E1 /* AppDelegate.swift in Sources */,
+				3FEEA474251B2FC300EEA3E1 /* SceneDelegate.swift in Sources */,
+				3FEEA476251B2FC300EEA3E1 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEEA480251B2FC500EEA3E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEEA489251B2FC500EEA3E1 /* kfzMonkeyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FEEA486251B2FC500EEA3E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FEEA46D251B2FC300EEA3E1 /* kfzMonkey */;
+			targetProxy = 3FEEA485251B2FC500EEA3E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FEEA47C251B2FC500EEA3E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEEA47D251B2FC500EEA3E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FEEA48B251B2FC500EEA3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FEEA48C251B2FC500EEA3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FEEA48E251B2FC500EEA3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9B754FDBC20DC3E4848A77 /* Pods-kfzMonkey.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"kfzMonkey/Preview Content\"";
+				DEVELOPMENT_TEAM = AR8RH55RMX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = kfzMonkey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongfz.kfzMonkey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FEEA48F251B2FC500EEA3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EDB9E63ED050EFCC44F6CDE /* Pods-kfzMonkey.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"kfzMonkey/Preview Content\"";
+				DEVELOPMENT_TEAM = AR8RH55RMX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = kfzMonkey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongfz.kfzMonkey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FEEA491251B2FC500EEA3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F9D3139038551AEC145266 /* Pods-kfzMonkeyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR8RH55RMX;
+				INFOPLIST_FILE = kfzMonkeyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongfz.kfzMonkeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kfzMonkey;
+			};
+			name = Debug;
+		};
+		3FEEA492251B2FC500EEA3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C22EE4B1A54D5CB27BC87F /* Pods-kfzMonkeyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR8RH55RMX;
+				INFOPLIST_FILE = kfzMonkeyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongfz.kfzMonkeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kfzMonkey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FEEA469251B2FC200EEA3E1 /* Build configuration list for PBXProject "kfzMonkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEEA48B251B2FC500EEA3E1 /* Debug */,
+				3FEEA48C251B2FC500EEA3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEEA48D251B2FC500EEA3E1 /* Build configuration list for PBXNativeTarget "kfzMonkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEEA48E251B2FC500EEA3E1 /* Debug */,
+				3FEEA48F251B2FC500EEA3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEEA490251B2FC500EEA3E1 /* Build configuration list for PBXNativeTarget "kfzMonkeyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEEA491251B2FC500EEA3E1 /* Debug */,
+				3FEEA492251B2FC500EEA3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FEEA466251B2FC200EEA3E1 /* Project object */;
+}

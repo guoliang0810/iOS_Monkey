@@ -1,0 +1,28 @@
+PODS:
+  - SwiftLint (0.40.3)
+  - SwiftMonkey (2.1.1)
+  - SwiftMonkeyPaws (2.1.1)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - SwiftLint
+  - SwiftMonkey (~> 2.1.0)
+  - SwiftMonkeyPaws
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - SwiftLint
+    - SwiftMonkey
+    - SwiftMonkeyPaws
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  SwiftLint: dfd554ff0dff17288ee574814ccdd5cea85d76f7
+  SwiftMonkey: aea6f2707a4b7ab5277b4d2fd2f0723a083997b1
+  SwiftMonkeyPaws: 655524bb402df5ac2be836f9f604aca1068fbde6
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 3112a2125e047a73c3b13c933c23cc2201e6f731
+
+COCOAPODS: 1.9.1

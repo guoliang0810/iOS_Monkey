@@ -1,0 +1,6 @@
+module Pods_kfzMonkeyUITests {
+  umbrella header "Pods-kfzMonkeyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
