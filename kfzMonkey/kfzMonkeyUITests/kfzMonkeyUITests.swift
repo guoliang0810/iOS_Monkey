@@ -36,11 +36,18 @@ class kfzMonkeyUITests: XCTestCase {
         let monkey = Monkey(frame: application.frame)
 //        monkey.addDefaultXCTestPrivateActions()
 //        monkey.addXCTestTapAlertAction(interval: 100, application: application)
+        NSLog("孔夫子旧书网啦啦啦addXCTestTapAction")
         monkey.addXCTestTapAction(weight: 100)
         
-        // Run the monkey test indefinitely.
-        monkey.monkeyAround(iterations: 1000)
-        NSLog("dddd33333333")
+        // Run the monkey test indefinitely
+        for index in 0 ..< 1000 {
+            print("自动化测试报错次数", index)
+            do{
+                try monkey.monkeyAround(iterations: 1000)
+            } catch {
+                print(index)
+            }
+        }
 
         // Use recording to get started writing UI tests.
 
