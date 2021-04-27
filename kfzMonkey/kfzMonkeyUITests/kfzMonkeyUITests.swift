@@ -40,7 +40,7 @@ class kfzMonkeyUITests: XCTestCase {
         monkey.addXCTestTapAction(weight: 100)
         
         // Run the monkey test indefinitely
-        for index in 0 ..< 1000 {
+        for index in 0 ..< 100000 {
             print("自动化测试报错次数", index)
             do{
                 try monkey.monkeyAround(iterations: 1000)
